@@ -4,7 +4,7 @@ import React from "react"
 // Editable contact links
 const CONTACT = {
   facebook: "https://web.facebook.com/profile.php?id=61583791092081",
-  instagram: "https://instagram.com/yourhandle",
+  instagram: "https://www.instagram.com/d_four_lab/",
   email: "hello@dfour.example",
   // WhatsApp number in international format without plus for wa.me (e.g. 94771234567)
   whatsappNumber: "94771234567",

@@ -9,8 +9,8 @@ export function ContactCTA() {
           <Image
             src="/dfour-logo.jpg"
             alt="DFour logo"
-            width={96}
-            height={96}
+            width={1960}
+            height={1296}
             className="object-contain mx-auto"
             priority
           />
@@ -40,7 +40,7 @@ export function ContactCTA() {
           </a>
 
           <a
-            href="https://instagram.com/yourhandle"
+            href="https://www.instagram.com/d_four_lab/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
