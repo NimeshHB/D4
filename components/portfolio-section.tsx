@@ -1,4 +1,3 @@
-import WhoWeAre from "./who-we-are"
 
 export function PortfolioSection() {
   const projects = [
@@ -82,8 +81,7 @@ export function PortfolioSection() {
                 </div>
               ))}
             </div>
-            {/* Who we are (inserted after Selected work) */}
-            <WhoWeAre />
+            {/* Who we are was previously embedded here; removed per request */}
           </div>
         </div>
       </div>
