@@ -27,8 +27,8 @@ export function HeroSection() {
         
         </div>
 
-        {/* Device mockups: add extra spacing and smaller mobile frame to avoid overlap */}
-        <div className="mt-20 sm:mt-24 relative h-[300px] md:h-[460px]">
+        {/* Device mockups: mobile-first. keep frame sizes but add extra top spacing to avoid overlap */}
+        <div className="mt-20 relative h-[360px] md:h-[460px]">
           {/* Left - MacBook (visible on lg+) */}
           <div className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 w-1/4 z-10 px-4">
             <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
@@ -42,7 +42,7 @@ export function HeroSection() {
           </div>
 
           {/* Center - Mobile Device (always visible, scales on small screens) */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-40 sm:w-52 md:w-72 z-20">
+          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-2/5 sm:w-1/3 md:w-1/4 z-20">
             <div className="mx-auto w-full">
               <div className="bg-[color:var(--color-popover)] rounded-[2rem] shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
                 <div className="bg-[color:var(--color-card)] h-6 flex items-center justify-center">
