@@ -28,20 +28,13 @@ export default function WhoWeAre(): JSX.Element {
                 </div>
               </div>
 
-              <div className="p-4 bg-white/3 rounded-lg border border-white/6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
-                  <div>
-                    <div className="font-bold">Software Development</div>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="p-4 bg-white/3 rounded-lg border border-white/6">
                 <div className="flex items-start gap-4">
                   <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
                   <div>
-                    <div className="font-bold">Logo & Branding</div>
+                    <div className="font-bold">Logo Branding </div>
                   </div>
                 </div>
               </div>

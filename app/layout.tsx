@@ -11,7 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "DFour Lab",
   description:
-    "Award-winning web design, UI/UX, branding, and custom software development for ambitious brands worldwide. Transform your digital presence with Pixelcraft Studio.",
+    "Award-winning web design, UI/UX, and branding for ambitious brands worldwide. Transform your digital presence with Pixelcraft Studio.",
   generator: "v0.app",
   icons: {
     icon: [
