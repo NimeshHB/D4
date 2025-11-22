@@ -17,6 +17,53 @@ export function ContactCTA() {
             Start Your Project
           </Button>
         </div>
+        <div className="mt-8 flex items-center justify-center gap-4">
+          <a
+            href="https://web.facebook.com/profile.php?id=61583791092081"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-md bg-black text-white font-semibold"
+          >
+            📘 Facebook
+          </a>
+
+          <a
+            href="https://instagram.com/yourhandle"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-md bg-black text-white font-semibold"
+          >
+            📸 Instagram
+          </a>
+
+          <a
+            href="mailto:hello@dfour.example"
+            aria-label="Email"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-md bg-black text-white font-semibold"
+          >
+            ✉️ Email
+          </a>
+
+          <a
+            href="https://wa.me/94771234567"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-md bg-black text-white font-semibold"
+          >
+            💬 WhatsApp
+          </a>
+
+          <a
+            href="tel:+94771234567"
+            aria-label="Call"
+            className="inline-flex items-center gap-2 px-4 py-3 rounded-md bg-black text-white font-semibold"
+          >
+            📞 Call
+          </a>
+        </div>
       </div>
     </section>
   )
