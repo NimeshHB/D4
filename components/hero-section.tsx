@@ -7,7 +7,7 @@ export function HeroSection() {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center">
             <div className="flex items-center justify-center">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black mb-4 sm:mb-6 leading-tight uppercase tracking-tight text-center">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black mb-4 sm:mb-6 leading-snug uppercase tracking-tight text-center space-y-3">
                 <span className="block whitespace-nowrap">Where technology</span>
                 <span className="block whitespace-nowrap">meets creativity.</span>
               </h1>
