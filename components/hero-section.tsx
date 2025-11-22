@@ -28,32 +28,32 @@ export function HeroSection() {
         </div>
 
         {/* Desktop mockups: centered 3D-style group of four overlapping desktop screens */}
-        <div className="mt-8 relative h-[420px] md:h-[520px]">
-          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-full max-w-5xl">
+        <div className="mt-8 relative h-[620px] md:h-[760px]">
+          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-full max-w-7xl">
             <div className="relative h-full">
-              {/* Back-left */}
-              <div className="absolute left-0 top-1/6 w-1/3 transform -translate-x-6 -translate-y-6 -rotate-6 z-10">
+              {/* Back-left (larger) */}
+              <div className="absolute left-0 top-1/6 w-1/2 transform -translate-x-8 -translate-y-8 -rotate-6 z-10">
                 <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
                   <Image src="/dreamer.svg" alt="Desktop 1" width={900} height={600} className="w-full h-auto" />
                 </div>
               </div>
 
               {/* Front-left */}
-              <div className="absolute left-1/4 top-0 w-1/3 transform -rotate-2 z-20">
+              <div className="absolute left-1/4 top-0 w-1/2 transform -rotate-2 z-20">
                 <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
                   <Image src="/spices.svg" alt="Desktop 2" width={900} height={600} className="w-full h-auto" />
                 </div>
               </div>
 
               {/* Front-right */}
-              <div className="absolute left-1/2 top-6 w-1/3 transform rotate-2 z-30">
+              <div className="absolute left-1/2 top-6 w-1/2 transform rotate-2 z-30">
                 <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
                   <Image src="/placeholder.svg?height=800&width=800" alt="Desktop 3" width={900} height={600} className="w-full h-auto" />
                 </div>
               </div>
 
               {/* Back-right */}
-              <div className="absolute right-0 top-1/4 w-1/3 transform translate-x-6 rotate-8 z-5">
+              <div className="absolute right-0 top-1/4 w-1/2 transform translate-x-8 rotate-8 z-5">
                 <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
                   <Image src="/dreamer.svg" alt="Desktop 4" width={900} height={600} className="w-full h-auto" />
                 </div>
