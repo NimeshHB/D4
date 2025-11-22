@@ -18,39 +18,36 @@ export default function WhoWeAre(): JSX.Element {
             </p>
 
             <h4 className="text-sm font-semibold uppercase text-[#00DF82] mb-3">Core strengths</h4>
-            <div className="grid grid-cols-1 gap-4 mb-6">
-              <div className="p-4 bg-white/3 rounded-lg border border-white/6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
-                  <div>
-                    <div className="font-bold">Web Design & Development</div>
-                  </div>
-                </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
+              <div className="p-2 bg-white/3 rounded-md border border-white/6 text-sm flex items-center gap-3">
+              <div className="flex-none w-8 h-8 rounded-sm bg-[#00160f] grid place-items-center text-[#00DF82] text-xs">+</div>
+              <div>
+                <div className="font-medium">Web Design</div>
+                <div className="text-gray-300 text-xs">UI/UX & Frontend</div>
+              </div>
               </div>
 
-              
-
-              <div className="p-4 bg-white/3 rounded-lg border border-white/6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
-                  <div>
-                    <div className="font-bold">Logo Branding </div>
-                  </div>
-                </div>
+              <div className="p-2 bg-white/3 rounded-md border border-white/6 text-sm flex items-center gap-3">
+              <div className="flex-none w-8 h-8 rounded-sm bg-[#00160f] grid place-items-center text-[#00DF82] text-xs">+</div>
+              <div>
+                <div className="font-medium">Development</div>
+                <div className="text-gray-300 text-xs">Backend | Hosting</div>
+              </div>
               </div>
 
-              <div className="p-4 bg-white/3 rounded-lg border border-white/6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
-                  <div>
-                    <div className="font-bold">Graphic Design & Motion</div>
-                  </div>
-                </div>
+              <div className="p-2 bg-white/3 rounded-md border border-white/6 text-sm flex items-center gap-3">
+              <div className="flex-none w-8 h-8 rounded-sm bg-[#00160f] grid place-items-center text-[#00DF82] text-xs">+</div>
+              <div>
+                <div className="font-medium">Branding</div>
+                <div className="text-gray-300 text-xs">Logo & Identity</div>
+              </div>
               </div>
             </div>
 
             <a
-              href="#contact"
+              href="https://web.facebook.com/profile.php?id=61583791092081"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#00DF82] text-black font-semibold px-5 py-3 rounded-md shadow-lg"
             >
               Let's talk
