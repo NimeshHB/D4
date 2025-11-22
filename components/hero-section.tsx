@@ -12,22 +12,23 @@ export function HeroSection() {
                 <span className="block whitespace-nowrap">meets creativity.</span>
               </h1>
             </div>
-          <p className="text-sm sm:text-base md:text-lg text-[color:var(--mint-green)] max-w-2xl mx-auto font-medium uppercase tracking-wider mb-6">
-            Web Development · UI/UX Design · Branding · Logo
+          <p className="text-sm sm:text-base md:text-lg text-[color:var(--mint-green)] max-w-2xl mx-auto font-medium uppercase tracking-wider mb-8">
+            <span className="inline-flex items-center justify-center gap-6">
+              <span>Web Development</span>
+              <span className="opacity-80">·</span>
+              <span>UI/UX Design</span>
+              <span className="opacity-80">·</span>
+              <span>Branding</span>
+              <span className="opacity-80">·</span>
+              <span>Logo</span>
+            </span>
           </p>
 
-          <div className="flex items-center justify-center gap-4">
-            <Button className="mint-btn mint-glow mint-focus px-6 py-3 rounded-none font-black uppercase tracking-wider">
-              Start Project
-            </Button>
-            <a href="#work" className="inline-block text-[color:var(--color-foreground)] border border-[color:var(--color-border)] px-4 py-3 uppercase font-bold rounded-none">
-              View Work
-            </a>
-          </div>
+        
         </div>
 
         {/* Device mockups: mobile-first. big left/right mockups appear at lg+ */}
-        <div className="mt-12 relative h-[420px] md:h-[520px]">
+        <div className="mt-16 relative h-[420px] md:h-[520px]">
           {/* Left - MacBook (visible on lg+) */}
           <div className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 w-1/3 z-10 px-4">
             <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
