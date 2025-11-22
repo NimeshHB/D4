@@ -24,7 +24,6 @@ export default function WhoWeAre(): JSX.Element {
                   <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
                   <div>
                     <div className="font-bold">Web Design & Development</div>
-                    <div className="text-sm text-gray-300">Fast, responsive, SEO-optimized websites and custom web applications</div>
                   </div>
                 </div>
               </div>
@@ -34,7 +33,6 @@ export default function WhoWeAre(): JSX.Element {
                   <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
                   <div>
                     <div className="font-bold">Software Development</div>
-                    <div className="text-sm text-gray-300">Custom business tools, mobile apps, SaaS platforms & backend systems</div>
                   </div>
                 </div>
               </div>
@@ -44,7 +42,6 @@ export default function WhoWeAre(): JSX.Element {
                   <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
                   <div>
                     <div className="font-bold">Logo & Branding</div>
-                    <div className="text-sm text-gray-300">Timeless logos, full visual identities, brand guidelines & marketing assets</div>
                   </div>
                 </div>
               </div>
@@ -54,7 +51,6 @@ export default function WhoWeAre(): JSX.Element {
                   <div className="flex-none w-10 h-10 rounded-md bg-[#00160f] grid place-items-center text-[#00DF82]">➕</div>
                   <div>
                     <div className="font-bold">Graphic Design & Motion</div>
-                    <div className="text-sm text-gray-300">Social media visuals, print collateral, animated logos & promotional videos</div>
                   </div>
                 </div>
               </div>
