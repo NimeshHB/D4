@@ -49,8 +49,8 @@ export function PortfolioSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p) => (
             <article key={p.slug} className="bg-white rounded-lg overflow-hidden border border-gray-200 shadow-sm">
-              <div className="w-full h-44 bg-gray-100">
-                <Image src={p.image} alt={p.title} width={800} height={600} className="w-full h-full object-cover" />
+              <div className="w-full aspect-square bg-gray-100 relative">
+                <Image src={p.image} alt={p.title} fill className="object-cover" />
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-black">{p.title}</h3>
