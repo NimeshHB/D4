@@ -27,41 +27,37 @@ export function HeroSection() {
         
         </div>
 
-        {/* Device mockups: mobile-first. keep frame sizes but add extra top spacing to avoid overlap */}
-        <div className="mt-20 relative h-[360px] md:h-[460px]">
-          {/* Left - MacBook (visible on lg+) */}
-          <div className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 w-1/4 z-10 px-4">
-            <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
-              <div className="bg-[color:var(--color-popover)] h-6 flex items-center px-3 gap-1.5">
-                <div className="w-2 h-2 rounded-full bg-red-500"></div>
-                <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-                <div className="w-2 h-2 rounded-full bg-green-500"></div>
-              </div>
-              <Image src="/dreamer.svg" alt="SaaS Dashboard" width={600} height={400} className="w-full h-auto" />
-            </div>
-          </div>
-
-          {/* Center - Mobile Device (always visible, scales on small screens) */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-2/5 sm:w-1/3 md:w-1/4 z-20">
-            <div className="mx-auto w-full">
-              <div className="bg-[color:var(--color-popover)] rounded-[2rem] shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
-                <div className="bg-[color:var(--color-card)] h-6 flex items-center justify-center">
-                  <div className="w-16 h-1 bg-[color:var(--color-border)] rounded-full"></div>
+        {/* Desktop mockups: centered 3D-style group of four overlapping desktop screens */}
+        <div className="mt-20 relative h-[420px] md:h-[520px]">
+          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-full max-w-5xl">
+            <div className="relative h-full">
+              {/* Back-left */}
+              <div className="absolute left-0 top-1/6 w-1/3 transform -translate-x-6 -translate-y-6 -rotate-6 z-10">
+                <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
+                  <Image src="/dreamer.svg" alt="Desktop 1" width={900} height={600} className="w-full h-auto" />
                 </div>
-                <Image src="/sanjisir.svg" alt="Mobile App" width={300} height={600} className="w-full h-auto" />
               </div>
-            </div>
-          </div>
 
-          {/* Right - Browser Window (visible on lg+) */}
-          <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-1/4 z-10 px-4">
-            <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
-              <div className="bg-[color:var(--color-popover)] h-6 flex items-center px-3 gap-1.5">
-                <div className="w-2 h-2 rounded-full bg-red-500"></div>
-                <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-                <div className="w-2 h-2 rounded-full bg-green-500"></div>
+              {/* Front-left */}
+              <div className="absolute left-1/4 top-0 w-1/3 transform -rotate-2 z-20">
+                <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
+                  <Image src="/spices.svg" alt="Desktop 2" width={900} height={600} className="w-full h-auto" />
+                </div>
               </div>
-              <Image src="/spices.svg" alt="Portfolio Site" width={600} height={400} className="w-full h-auto" />
+
+              {/* Front-right */}
+              <div className="absolute left-1/2 top-6 w-1/3 transform rotate-2 z-30">
+                <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
+                  <Image src="/placeholder.svg?height=800&width=800" alt="Desktop 3" width={900} height={600} className="w-full h-auto" />
+                </div>
+              </div>
+
+              {/* Back-right */}
+              <div className="absolute right-0 top-1/4 w-1/3 transform translate-x-6 rotate-8 z-5">
+                <div className="bg-[color:var(--color-card)] rounded-lg shadow-2xl overflow-hidden border-4 border-[color:var(--color-border)]">
+                  <Image src="/dreamer.svg" alt="Desktop 4" width={900} height={600} className="w-full h-auto" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
