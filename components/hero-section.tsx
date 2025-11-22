@@ -28,7 +28,7 @@ export function HeroSection() {
         </div>
 
         {/* Desktop mockups: centered 3D-style group of four overlapping desktop screens */}
-        <div className="mt-20 relative h-[420px] md:h-[520px]">
+        <div className="mt-12 relative h-[420px] md:h-[520px]">
           <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-full max-w-5xl">
             <div className="relative h-full">
               {/* Back-left */}
