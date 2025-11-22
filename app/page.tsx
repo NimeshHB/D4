@@ -6,6 +6,7 @@ import { LexiataBanner } from "@/components/lexiata-banner"
 import WhoWeAre from "@/components/who-we-are"
 import { PortfolioSection } from "@/components/portfolio-section"
 import { ContactCTA } from "@/components/contact-cta"
+import ContactPage from "./contact/page"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <ClientsSection />
         <PortfolioSection />
         <ContactCTA />
+        <ContactPage />
       </main>
     </div>
   )
